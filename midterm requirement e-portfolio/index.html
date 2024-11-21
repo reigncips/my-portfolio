@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="content-wrapper">
+    <nav class="navbar">
+        <div class="container">
+            <ul class="navlinks">
+                <li><a href="#Home">Home</a></li>
+                <li>
+                    <a href="#Portfolio">Portfolio</a>
+                    <ul class="portfolio-dropdown">
+                        <li><a href="#introduction">Introduction/About Me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#technical-skills">Technical Skills</a></li>
+                        <li><a href="#certifications">Certifications & Training</a></li>
+                        <li><a href="#achievements">Achievements & Awards</a></li>
+                        <li><a href="#reflections">Reflections & Future Goals</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Homepage Section -->
+        <section class="homepage" id="Home">
+            <video autoplay loop muted playsinline id="video-bg">
+                <source src="video-bg/video-bg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="homepage-content">
+                <h1>Reign Marc L. Cipriano</h1>
+                <p>I am a passionate and dedicated computer engineering student with a strong interest in web development and User Interface/User Experience Design.</p>
+            </div>
+            <div class="profile-circle">
+                <img src="/images/profile-img.png">
+            </div>
+        </section>
+    </div>
+    
+    <!-- About Me Section -->
+    <section id="about" class="reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <!-- Left Container - Professional Photo -->
+            <div class="about-photo-container">
+                <div class="photo-frame">
+                    <img src="images/professional-photo.jpg" alt="Professional Photo" class="profile-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+            </div>
+
+            <!-- Right Container - Profile Summary -->
+            <div class="about-content">
+                <h3>Profile Summary</h3>
+                <p>Hi! I am Reign Marc L. Cipriano.</p>
+                
+                <p>I am a passionate and dedicated computer engineering student with a strong interest in web development and User Interface/User Experience Design. My educational background has equipped me with a foundation in programming languages, markup and style sheet language.</p>
+
+                <p>I am committed to continuous learning and growth in the field of computer engineering. I aspire to build a career where I can contribute to impactful projects while continuing to expand my expertise in design and development. Through dedication and persistence, I strive to make a meaningful mark in the tech industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section id="contact" class="reveal">
+        <h2 class="section-title">Contact Information</h2>
+        <div class="contact-container">
+            <!-- Existing contact info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="mailto:ciprianoreignmarc@gmail.com">
+                        <img src="images/gmail_icon.png" alt="Email" class="contact-icon">
+                        <span>ciprianoreignmarc@gmail.com</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href=>
+                        <img src="images/phone_icon.png" alt="Phone" class="contact-icon">
+                        <span>09519236198</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.facebook.com/reign.reign.94801116" target="_blank">
+                        <img src="images/facebook_icon.png" alt="Facebook" class="contact-icon">
+                        <span>Reign Marc Cipriano</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.instagram.com/reigncipss/" target="_blank">
+                        <img src="images/instagram_icon.png" alt="Instagram" class="contact-icon">
+                        <span>reigncipss</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.linkedin.com/in/reign-marc-cipriano/" target="_blank">
+                        <img src="images/linkedin_icon.png" alt="LinkedIn" class="contact-icon">
+                        <span>Reign Marc L. Cipriano</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Static Contact Form -->
+            <div class="contact-form-container">
+                <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="reveal reveal-right">   
+            <h2 class="section-title">Education</h2>
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Elementary Education</h3>
+                        <p>New Isabela Central Elementary School</p>
+                        <ul class="list-style">
+                            <li>Honor student from Grade 1 to 6</li>
+                            <li>Graduated as Class Valedictorian</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Junior High School</h3>
+                        <p>Tacurong National High School</p>
+                        <ul class="list-style">
+                            <li>Honor student from Grade 7 to 10</li>
+                            <li>Graduated with the "With Honors" award</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Senior High School</h3>
+                        <p>Tacurong National High School</p>
+                        <ul class="list-style">
+                            <li>Graduated with the "With Honors" award</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section id="technical-skills" class="reveal">
+            <h2 class="section-title" >Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    
+                    <div class="skill-item">
+                        <h4>C++</h4>
+                        <p>Proficient in C++ for developing applications, understanding object-oriented programming concepts, and implementing algorithms.</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <h4>Python</h4>
+                        <p>Experienced in Python for scripting and automating tasks, as well as developing small applications. Familiar with libraries such as NumPy and pandas for data manipulation.</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <h4>JavaScript</h4>
+                        <p>Knowledgeable in JavaScript for adding interactivity to web pages.</p>
+                    </div>
+                </div>
+
+                <!-- Markup and Style Sheet -->
+                <div class="skill-category">
+                    <h3>Markup and Style Sheet</h3>
+                    
+                    <div class="skill-item">
+                        <h4>HTML</h4>
+                        <p>Skilled in HTML for structuring web content. Experienced in creating well-formed documents and utilizing semantic HTML elements.</p>
+                    </div>
+
+                    <div class="skill-item">
+                        <h4>CSS</h4>
+                        <p>Proficient in CSS for styling web pages. Familiar with concepts such as responsive design, Flexbox, and Grid Layout to create visually appealing and user-friendly interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hardware Proficiency -->
+        <section id="hardware" class="reveal">
+            <h2 class="section-title">Hardware Proficiency</h2>
+            <div class="hardware-grid">
+                <!-- Development Boards -->
+                <div class="hardware-card">
+                    <h3>Development Boards</h3>
+                    <div class="skill-item">
+                        <h4>Arduino</h4>
+                        <p>Experience with LED Control, Line Tracing Bot, and Sumo Bot projects</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>ESP8266</h4>
+                        <p>Worked on LoRa-Based Wireless Sensor Networks project</p>
+                    </div>
+                </div>
+
+                <!-- Microcontroller Platforms -->
+                <div class="hardware-card">
+                    <h3>Microcontroller Platforms</h3>
+                    <div class="skill-item">
+                        <h4>Intel FPGA</h4>
+                        <p>Experience with Verilog and digital circuit design</p>
+                    </div>
+                </div>
+
+                <!-- Components -->
+                <div class="hardware-card">
+                    <h3>Components</h3>
+                    <ul class="list-style">
+                        <li>Sensors (Humidity, IR, Temperature, Light)</li>
+                        <li>Breadboards</li>
+                        <li>Logic ICs</li>
+                        <li>LEDs</li>
+                        <li>Resistors</li>
+                        <li>Switches</li>
+                        <li>DC Motors</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+            <!-- Certifications & Training Section -->
+    <section id="certifications" class="reveal">
+        <h2 class="section-title">Certifications & Training</h2>
+        <div class="certifications-gallery">
+            <img src="/images/certificates/certificate1.png" alt="Certification 1" class="certificate-img" onclick="openImageViewer(this)">
+            <img src="/images/certificates/certificate2.png" alt="Certification 2" class="certificate-img" onclick="openImageViewer(this)">
+            <img src="/images/certificates/certificate3.png" alt="Certification 3" class="certificate-img" onclick="openImageViewer(this)">
+        </div>
+    </section>
+
+        <!-- Relevant Coursework -->
+        <section id="coursework" class="reveal">
+            <h2 class="section-title">Relevant Coursework</h2>
+            <div class="coursework-container">
+                <button class="scroll-btn left" onclick="scrollCourses('left')">&#10094;</button>
+                <button class="scroll-btn right" onclick="scrollCourses('right')">&#10095;</button>
+                <div class="coursework-grid">
+                    <div class="course-card">
+                        <h3>Programming Logic and Design</h3>
+                        <p>Learned the principles of logical thinking and problem-solving in programming.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>Object-Oriented Programming</h3>
+                        <p>Studied the principles of OOP and applied them in software development.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>Data Structures and Algorithms</h3>
+                        <p>Gained insights into efficient data management and algorithm design.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>Engineering Data Analysis</h3>
+                        <p>Developed skills in analyzing data and making data-driven decisions.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>Software Design</h3>
+                        <p>Explored methodologies for designing and implementing software solutions.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>Operating Systems</h3>
+                        <p>Learned about the functionality and management of operating systems.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>Introduction to HDL</h3>
+                        <p>Gained experience in hardware description languages for circuit design.</p>
+                    </div>
+                    <div class="course-card">
+                        <h3>Computer Engineering Drafting and Design</h3>
+                        <p>Developed skills in drafting and design relevant to computer engineering.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Awards Section -->
+    <section id="achievements" class="reveal">
+        <h2 class="section-title">Achievements & Awards</h2>
+        <div class="competitions-gallery">
+            <img src="images/competitions/competition1.png" alt="Competition 1" class="competition-img" onclick="openImageViewer(this)">
+        </div>
+    </section>
+
+        <!-- Reflections & Future Goals -->
+        <section id="reflections" class="reveal reveal-left">
+            <h2 class="section-title">Reflections & Future Goals</h2>
+            <div class="reflections-container">
+                <!-- Career Aspirations -->
+                <div class="reflection-card">
+                    <h3>Career Aspirations</h3>
+                    <p>I aspire to become a UI/UX Designer and Web Developer, creating intuitive and engaging user experiences that make technology accessible to all. Through my journey in computer engineering, I've discovered my passion for combining technical expertise with creative design to build meaningful digital solutions.</p>
+                </div>
+
+                <!-- Skills Development Goals -->
+                <div class="reflection-card">
+                    <h3>Skills Development Goals</h3>
+                    <ul class="goals-list">
+                        <li>Master programming languages like JavaScript and Python to enhance frontend and backend development capabilities.</li>
+                        <li>Gain proficiency in modern frameworks such as React and Vue.js for creating dynamic and interactive web applications.</li>
+                        <li>Deepen expertise in UI/UX design tools like Figma and Adobe XD for crafting user-focused designs and prototypes.</li>
+                        <li>Build a portfolio of responsive and mobile-first projects showcasing a strong blend of design and development skills.</li>
+                        <li>Participate in open-source web development or UI/UX projects to gain practical experience and collaboration skills.</li>
+                    </ul>
+                </div>
+
+                <!-- Professional Development -->
+                <div class="reflection-card">
+                    <h3>Professional Development</h3>
+                    <p>I am committed to continuous learning and staying updated with the latest industry trends and technologies. My goal is to work with innovative companies where I can contribute to meaningful projects while growing both technically and professionally.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rating Section -->
+        <section id="rating" class="rating-section">
+            <h2 class="section-title">Rate My Portfolio</h2>
+            <div class="rating-container">
+                <div class="stars">
+                    <i class="far fa-star" data-rating="1"></i>
+                    <i class="far fa-star" data-rating="2"></i>
+                    <i class="far fa-star" data-rating="3"></i>
+                    <i class="far fa-star" data-rating="4"></i>
+                    <i class="far fa-star" data-rating="5"></i>
+                </div>
+                <div class="rating-message">Click to rate</div>
+                <textarea id="comment" placeholder="Leave a comment (optional)" maxlength="500"></textarea>
+                <button id="submitRating" class="rating-btn">Submit Rating</button>
+            </div>
+        </section>
+
+    </div>
+    
+    <div class="image-viewer" id="imageViewer">
+        <span class="close-btn" onclick="closeImageViewer()">&times;</span>
+        <img class="viewer-image" id="expandedImg">
+    </div>
+
+    <script src="js/imageViewer.js"></script>
+    <script src="js/courseCarousel.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/rating.js"></script>
+</body>
+</html>
